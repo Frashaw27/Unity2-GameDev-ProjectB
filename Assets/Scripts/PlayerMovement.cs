@@ -8,11 +8,14 @@ public class PlayerMovement : MonoBehaviour
     public float ySpeed = 1f;
     public int hp = 5;
     public GameObject sword;
+    public GameObject camera;
     public bool acting = false;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //https://discussions.unity.com/t/how-to-spawn-an-prefab/776669/2
+        //Instantiate(sword, new Vector2 (0f,0f), Quaternion.identity);
+        //camera.transform.position = new Vector2(10f, 0f);
     }
 
     // Update is called once per frame
@@ -53,6 +56,10 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy")){
             takeDamage(1);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D col){
+        RoomManager.Instance.transferRoomLogic(gameObject, col);
     }
 
     void takeDamage(int damage){
