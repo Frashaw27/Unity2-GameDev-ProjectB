@@ -151,8 +151,8 @@ TextureImporter:
       name: DungeonPallete_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1536
+        x: 512
+        y: 1792
         width: 256
         height: 256
       alignment: 0
@@ -172,7 +172,7 @@ TextureImporter:
       name: DungeonPallete_3
       rect:
         serializedVersion: 2
-        x: 256
+        x: 0
         y: 1536
         width: 256
         height: 256
@@ -189,6 +189,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: DungeonPallete_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae0a8968b13aa8647bf4546c3bbf13e9
+      internalID: 637247961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DungeonPallete_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea7c3bbab13ccf47a9cc2245bb43a6d
+      internalID: -799618029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -201,9 +243,11 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       DungeonPallete_0: -1736567888
+      DungeonPallete_5: -799618029
       DungeonPallete_2: -1327408265
       DungeonPallete_1: -1241297813
       DungeonPallete_3: -1679470366
+      DungeonPallete_4: 637247961
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
